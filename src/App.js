@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {QUESTIONS} from "./questions";
+import QuizApp from './QuizApp';
 
 class App extends Component {
   state = {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="main__wrap">
         <main className="container">
           <div>
-            TODO
+            <QuizApp />
           </div>
         </main>
       </div>
