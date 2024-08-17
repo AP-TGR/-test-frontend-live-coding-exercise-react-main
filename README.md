@@ -7,10 +7,6 @@ yarn
 yarn dev
 ```
 
-## Goal
-
-Complete this React program to ask the end user a series of Yes/No questions, calculate and report the score back to them after each run. Additionally, calculate and report overall score for all runs.
-
 ## Notes
 The application can be run using the commands provided above. I have created a separate `QuizApp` component using TypeScript and added the necessary development dependencies.
 
@@ -18,6 +14,10 @@ The application can be run using the commands provided above. I have created a s
 - The app currently uses an outdated version of Node.js. It is recommended to update to Node.js version 18 or higher.
 - To address security issues, I have temporarily bypassed some updates using `NODE_OPTIONS=--openssl-legacy-provider`.
 - For better dependency management, consider adding a `engines` property in `package.json` to clearly specify the required Node.js version and other dependencies.
+
+## Goal
+
+Complete this React program to ask the end user a series of Yes/No questions, calculate and report the score back to them after each run. Additionally, calculate and report overall score for all runs.
 
 ## Requirements
 
